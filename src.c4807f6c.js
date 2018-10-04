@@ -23,4 +23,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{"react":"1n8/","./App.scss":"vKFU","./components/Editor":"JDh7","./components/Preview":"NxGu"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom"));require("./index.css");var t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","./index.css":"vKFU","./App":"lY9v"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.c4807f6c.map
+//# sourceMappingURL=/markdown-preview/src.c4807f6c.map
