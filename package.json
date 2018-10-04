@@ -2,11 +2,12 @@
   "name": "parcel-react",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "http://www.likezheng.org/markdown-preview/",
   "license": "MIT",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html",
-    "predeploy": "parcel build ./src/index.html",
+    "build": "NODE_ENV=production parcel build ./src/index.html --public-url /markdown-preview/",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
