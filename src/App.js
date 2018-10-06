@@ -24,7 +24,7 @@ class App extends Component {
     })
 
     return (
-      <div>
+      <div className='wrapper'>
         <Editor
           placeHolder={this.state.markdown}
           onChange={this.handleTextareaChange}

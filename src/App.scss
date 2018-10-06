@@ -1,2 +1,13 @@
 @import './css/preview.scss';
 @import './css/editor.scss';
+
+.wrapper{
+  margin: 50px 50px;
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}

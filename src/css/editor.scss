@@ -1,4 +1,17 @@
-#editor{
-  height: 100%;
-  width: 50%;
+.editor-render {
+  overflow-y: scroll;
+  text-align: center;
+}
+
+#editor {
+  min-height: 100%;
+  width: 96%;
+  margin-top: 25px;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 14px;
+
+  resize: none;
+  overflow: hidden;
 }

@@ -29,7 +29,11 @@ class Preview extends Component {
   }
 
   render() {
-    return <div id="preview" dangerouslySetInnerHTML={this.creatPreview()} />
+    return (
+      <div className="preview-render">
+        <div id="preview" dangerouslySetInnerHTML={this.creatPreview()} />
+      </div>
+    )
   }
 }
 
